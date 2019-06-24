@@ -1,0 +1,393 @@
+@charset "UTF-8";
+/* CSS Document */
+/* -----------------------------Mobile-----------------------*/
+
+.logo {
+	    width: 60px;
+}
+
+
+
+nav .brand-logo {
+	color: #b89c66;
+    font-size: 1.1rem
+}
+
+.navbar-brand {
+	font-size: 15px;
+}
+
+.menu_nav {
+	font-size: 12px;
+}
+
+.nav-wrapper {
+	background-color: #e8e8cc;
+}
+
+.nav-link {
+	color: #b89c66;
+}
+
+.side-nav {
+	color: #b89c66;
+}
+
+.material-icons {
+	color: #b89c66;
+}
+
+.painting {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.heading_img {
+    height: 200px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+/*---------------------------Fees Table-------------------*/
+
+table, th, td {
+  border: 1px solid black;
+}
+
+
+/*---------------------------Contact Form ----------------*/
+.contact-page {
+    display: block;
+}
+
+.enquiry {
+    text-transform: uppercase;
+    color: #8c9c70;
+    text-align: center;
+}
+
+.contact-form {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.address {
+    width: 100%;
+    margin-top: 65px;
+    text-align: center;
+}
+
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #8c9c70;
+    color: #fafafa;
+}
+
+.button {
+    background-color: #8c9c70;
+    color: #fafafa;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 5px 15px 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+
+input,
+textarea {
+    width: 70%;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #8c9c70;
+}
+
+placeholer {
+    color: #8c9c70;
+}
+
+/*------------------------Main----------------------*/
+
+.post-title {
+	color: #8c9c70;
+	font-size: 20px;
+    text-align: center;
+}
+
+.form_frame {
+	border: solid 1px;
+	color: #8c9c70;
+}
+
+.days {
+	margin: 0;
+	font-size: 14px;
+	color: grey;
+}
+
+.btn_sm {
+	padding: 0px 25px
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #d4a354;
+}
+
+.calender {
+	display: block;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 5px;
+}
+
+.lunch {
+     height: 250px;
+    width: auto;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.charity_number {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.gallery_pics {
+    height: 250px;
+    padding: 5px;
+    width:100%;
+}
+
+.design {
+        font-size: 10px;
+    text-align: center;
+}
+
+.unifrorm_pic {
+    height: 250px;
+    width: auto;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.staff {
+    height: 250px;
+    width: auto;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.butterfly {
+     height: 250px;
+    width: auto;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.web {
+     height: 250px;
+    width: auto;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.site-heading {
+    color: #8c9c70;
+    text-align: center;
+}
+
+.outside {
+    height: 250px;
+    width: auto;
+    display: block ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bullet {
+    list-style-type: disc;
+}
+
+.subtitle {
+    text-align: center;
+    color: #8c9c70;
+}
+
+
+/*-----------------------Footer---------------------*/
+
+footer {
+	background-color: #e8e8cc;
+}
+
+.footer_address {
+	font-size: 10px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.footer_image {
+	width: 40px;
+}
+
+
+
+ @media screen and (max-width: 1023px) {
+/*------- Main --------*/
+
+}
+
+/*----------------------------------------Media Queries*/
+
+/*-----Tablet ---*/
+
+/*----------------------------------------Tablet Header*/
+
+@media (min-width: 768px) {
+	.footer_address {
+	    font-size: 20px;
+    }
+    
+    .heading_img {
+        width: 75%;
+    }
+	
+    .painting {
+        width: 75%;
+    }
+    
+    .container .row {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .gallery_pics {
+    height: 250px;
+    padding: 5px;
+    width:25%;
+}
+}
+	
+
+	
+	
+/*-----Desktop-----*/
+
+/*----------------------------------------Desktop Header*/
+
+	@media (min-width: 1024px) {
+		.logo {
+			width: 70px;
+		}
+        
+        nav .brand-logo {
+    font-size: 2.1rem
+}
+		
+		.navbar-brand{
+			font-size: 45px;
+		}
+		
+		.top-nav {
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+		
+		.navbar-nav {
+			margin-right: 30px;
+		}
+		
+		.nav-link {
+			text-align: center;
+		}
+		
+		.nav-item {
+			font-size: 25px;
+		}
+        
+        .heading_img {
+            width: 50%;
+            height: 250px;
+        }
+        
+        .painting {
+        width: 50%;
+    }
+        
+    .web {
+         height: 350px;
+     }
+	
+}
+
+
+
+
+
+
+.copyright {
+    font-size: 10px;
+}
+
+.situation {
+    text-align: center;
+}
+
+.table_heading {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.telephone {
+    text-align: center;
+}
+
+.email {
+    text-align: center;
+}
+
+.calendar_link {
+    text-align: center;
+}
